@@ -1510,7 +1510,7 @@
         "label": "Luke Skywalker - Jedi Knight",
         "cp": 1520,
         "abilityCategory": [
-            "CardDraw",
+            "CardDrawDeck",
             "InterruptActivateAfterOwn"
         ]
     },
@@ -2293,9 +2293,7 @@
         "label": "Outpost",
         "cp": 200,
         "abilityCategory": [
-            "Bookmark",
-            "PlayfromDiscard"
-        ]
+            "ResolveBattlefield"
     },
     {
         "sides": [
@@ -2377,7 +2375,10 @@
         "url": "http://swdestinydb.com/card/01055",
         "imagesrc": "http://swdestinydb.com/bundles/cards/en/01/01055.jpg",
         "label": "IQA-11 Blaster Rifle",
-        "cp": 300
+        "cp": 300,
+        "abilityCategory": [
+            "DamageUnblockable"
+        ]
     },
     {
         "sides": [
@@ -2418,7 +2419,11 @@
         "url": "http://swdestinydb.com/card/01056",
         "imagesrc": "http://swdestinydb.com/bundles/cards/en/01/01056.jpg",
         "label": "Promotion",
-        "cp": 100
+        "cp": 100,
+        "abilityCategory": [
+            "CardDrawDeck",
+            "InterruptPlayAfterThis"
+        ]
     },
     {
         "sides": [
@@ -2459,7 +2464,11 @@
         "url": "http://swdestinydb.com/card/01057",
         "imagesrc": "http://swdestinydb.com/bundles/cards/en/01/01057.jpg",
         "label": "Force Throw",
-        "cp": 300
+        "cp": 300,
+        "abilityCategory": [
+            "Die Removal",
+            "Damage Dievalue"
+        ]
     },
     {
         "sides": [
